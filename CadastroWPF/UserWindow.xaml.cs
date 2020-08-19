@@ -128,6 +128,9 @@ namespace CadastroWPF
         {
             ctrlBtn = "default";
             CtrlBtn(ctrlBtn);
+
+            GridUser.ItemsSource = null;
+            GridUser.ItemsSource = new ViewModel.UserViewModel();
         }
 
         /// <summary>
@@ -173,7 +176,6 @@ namespace CadastroWPF
                             MessageBox.Show(service.messageAPI, "Inclusão", MessageBoxButton.OK, MessageBoxImage.Warning);
                         }
                     }
-
 
                     break;
 
