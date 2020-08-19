@@ -1,0 +1,9 @@
+﻿<Application x:Class="CadastroWPF.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:CadastroWPF"             
+             StartupUri="UserWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>
